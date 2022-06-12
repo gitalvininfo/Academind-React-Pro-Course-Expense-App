@@ -5,8 +5,7 @@ import ExpenseDate from "./ExpenseDate";
 import Card from "../UI/Card";
 
 const ExpenseItem = (props) => {
-
-  const [title, setTitle] = useState(props.title)
+  const [title, setTitle] = useState(props.title);
 
   const clickHandler = (message) => {
     setTitle(message);
