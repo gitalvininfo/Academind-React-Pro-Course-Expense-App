@@ -20,9 +20,9 @@ const ExpenseItem = (props) => {
           <h2>{title}</h2>
           <div className="expense-item__price">${props.amount}</div>
         </div>
-        <button onClick={() => clickHandler("test message")}>
+        {/* <button onClick={() => clickHandler("test message")}>
           Change Title
-        </button>
+        </button> */}
       </Card>
     </li>
   );
