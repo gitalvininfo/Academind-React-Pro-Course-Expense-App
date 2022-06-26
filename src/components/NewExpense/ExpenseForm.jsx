@@ -59,8 +59,8 @@ const ExpenseForm = ({ onSaveExpenseData }) => {
           <input
             type="date"
             value={enteredDate}
-            min="2019-01-01"
-            max="2020-12-31"
+            min="2022-01-01"
+            max="2023-12-31"
             onChange={dateChangedHandler}
           />
         </div>
